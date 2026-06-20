@@ -58,22 +58,20 @@ pip install geopandas mapclassify matplotlib contextily leafmap pandas numpy
 Bekasi-Geospatial-Visualization/
 │
 ├── data/
-│   ├── batas_administrasi_bekasi.geojson
-│   ├── jumlah_penduduk.csv
-│   └── lokasi_cafe.csv
+│   ├── kota_bekasi.geojson
+│   ├── populasi_bekasi.geojson
+│   └── landuse_bekasi.geojson
+│   ├── cafe_bekasi.geojson
+│   └── lpopulasi_bekasi.csv
 │
 ├── notebook/
-│   └── Bekasi_Geospatial_Visualization.ipynb
+│   └── Chloropleth.ipynb
 │
-├── scripts/
-│   ├── choropleth_population.py
-│   ├── cafe_distribution.py
-│   └── interactive_map.py
 │
 ├── output/
 │   ├── peta_choropleth_jumlah_penduduk.png
 │   ├── peta_persebaran_cafe.png
-│   └── peta_interaktif_jumlah_penduduk.html
+│   └── pmap.html
 │
 ├── requirements.txt
 ├── README.md
