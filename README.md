@@ -62,7 +62,7 @@ Bekasi-Geospatial-Visualization/
 │   ├── populasi_bekasi.geojson
 │   └── landuse_bekasi.geojson
 │   ├── cafe_bekasi.geojson
-│   └── lpopulasi_bekasi.csv
+│   └── populasi_bekasi.csv
 │
 ├── notebook/
 │   └── Chloropleth.ipynb
@@ -71,7 +71,7 @@ Bekasi-Geospatial-Visualization/
 ├── output/
 │   ├── peta_choropleth_jumlah_penduduk.png
 │   ├── peta_persebaran_cafe.png
-│   └── pmap.html
+│   └── map.html
 │
 ├── requirements.txt
 ├── README.md
