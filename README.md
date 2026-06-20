@@ -50,43 +50,6 @@ Pengolahan data dilakukan menggunakan beberapa library Python, yaitu:
 - Pandas
 - NumPy
 
-Instalasi library:
-
-```bash
-pip install geopandas mapclassify matplotlib contextily leafmap pandas numpy
-
-Bekasi-Geospatial-Visualization/
-│
-├── data/
-│   ├── kota_bekasi.geojson
-│   ├── populasi_bekasi.geojson
-│   └── landuse_bekasi.geojson
-│   ├── cafe_bekasi.geojson
-│   └── populasi_bekasi.csv
-│
-├── notebook/
-│   └── Chloropleth.ipynb
-│
-│
-├── output/
-│   ├── Cafe.png
-│   ├── Chloropleth Statik.png
-│   ├── Chloropleth.png
-│   └── map.html
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-
-# 🚀 Fitur Project
-
-- ✅ Membaca dan mengelola data spasial berformat GeoJSON.
-- ✅ Membuat peta choropleth jumlah penduduk Kota Bekasi.
-- ✅ Membuat peta statik persebaran café.
-- ✅ Menambahkan basemap menggunakan Contextily.
-- ✅ Membuat peta interaktif menggunakan Leafmap.
-- ✅ Melakukan eksplorasi data spasial secara dinamis.
-
 # 📚 Pembelajaran yang Diperoleh
 
 Melalui project ini, saya mempelajari beberapa hal berikut:
@@ -135,4 +98,41 @@ Penerapan konsep dan metode analisis spasial untuk memperoleh informasi yang leb
 
 ## 🗺 Visualisasi Data Geospasial
 
-Pengembangan visualisasi peta statik maupun interaktif untuk mendukung eksplorasi dan penyampaia
+Pengembangan visualisasi peta statik maupun interaktif untuk mendukung eksplorasi dan penyampaian
+
+Instalasi library:
+
+```bash
+pip install geopandas mapclassify matplotlib contextily leafmap pandas numpy
+
+Bekasi-Geospatial-Visualization/
+│
+├── data/
+│   ├── kota_bekasi.geojson
+│   ├── populasi_bekasi.geojson
+│   └── landuse_bekasi.geojson
+│   ├── cafe_bekasi.geojson
+│   └── populasi_bekasi.csv
+│
+├── notebook/
+│   └── Chloropleth.ipynb
+│
+│
+├── output/
+│   ├── Cafe.png
+│   ├── Chloropleth Statik.png
+│   ├── Chloropleth.png
+│   └── map.html
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
+
+# 🚀 Fitur Project
+
+- ✅ Membaca dan mengelola data spasial berformat GeoJSON.
+- ✅ Membuat peta choropleth jumlah penduduk Kota Bekasi.
+- ✅ Membuat peta statik persebaran café.
+- ✅ Menambahkan basemap menggunakan Contextily.
+- ✅ Membuat peta interaktif menggunakan Leafmap.
+- ✅ Melakukan eksplorasi data spasial secara dinamis.
