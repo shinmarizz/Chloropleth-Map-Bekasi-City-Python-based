@@ -69,8 +69,9 @@ Bekasi-Geospatial-Visualization/
 │
 │
 ├── output/
-│   ├── peta_choropleth_jumlah_penduduk.png
-│   ├── peta_persebaran_cafe.png
+│   ├── Cafe.png
+│   ├── Chloropleth Statik.png
+│   ├── Chloropleth.png
 │   └── map.html
 │
 ├── requirements.txt
